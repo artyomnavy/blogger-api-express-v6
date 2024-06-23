@@ -62,7 +62,7 @@ describe('/users', () => {
                 errorsMessages: [
                     {message: 'Invalid login', field: 'login'},
                     {message: 'Invalid password', field: 'password'},
-                    {message: 'Invalid email', field: 'email'}
+                    {message: 'Invalid email pattern', field: 'email'}
                 ]
             })
 
